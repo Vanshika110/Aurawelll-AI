@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mental Health Community Finder</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+    <script src="{{ url_for('static', filename='js/script.js') }}" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Join a Mental Health Community</h1>
+        <input type="text" id="search-box" placeholder="Type a mental health problem..." oninput="searchCommunities()">
+        <div id="suggestions" class="suggestions"></div>
+        
+        <div id="community-list" class="community-list">
+            <!-- Dynamically generated community cards will appear here -->
+        </div>
+    </div>
+</body>
+</html>
