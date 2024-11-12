@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mood Tracker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Daily Mood Tracker</h1>
+        
+        <!-- Mood Selection Section -->
+        <form id="moodForm" action="/submit" method="post" enctype="multipart/form-data">
+                        <div class="mood-selection">
+                <label>Select Your Mood:</label>
+                <div class="moods">
+                    <label><input type="radio" name="mood" value="1"> 😢 Very Sad</label>
+                    <label><input type="radio" name="mood" value="2"> 😞 Sad</label>
+                    <label><input type="radio" name="mood" value="3"> 😐 Neutral</label>
+                    <label><input type="radio" name="mood" value="4"> 😊 Happy</label>
+                    <label><input type="radio" name="mood" value="5"> 😁 Very Happy</label>
+                </div>
+            </div>
+
+            <!-- Journal Entry Section -->
+            <label for="journal">Journal Entry:</label>
+            <textarea id="journal" name="journal" rows="5" placeholder="How was your day?"></textarea>
+            
+            <!-- Optional Selfie Upload -->
+            <label for="selfie">Upload a Selfie (optional):</label>
+            <input type="file" id="selfie" name="selfie" accept="image/*">
+
+            <button type="submit">Submit Mood</button>
+        </form>
+
+        <!-- Mood Chart Display Section -->
+        <div class="mood-chart" id="moodChart">
+            <h2>Monthly Mood Overview</h2>
+            <div class="calendar"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
