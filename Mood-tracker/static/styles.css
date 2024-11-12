@@ -1,0 +1,44 @@
+/* Basic styles for layout */
+.container {
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+}
+
+.mood-selection {
+    margin-bottom: 20px;
+}
+
+.moods label {
+    margin: 5px;
+    font-size: 1.2em;
+}
+
+textarea {
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 1em;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+}
+
+.calendar {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.calendar div {
+    width: 30px;
+    height: 30px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.8em;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
