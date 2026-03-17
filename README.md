@@ -119,13 +119,3 @@ This project demonstrates core **System Integrator** competencies:
 
 *Built as part of a system integration portfolio targeting AI + Cloud + Data domains.*
 ```
-
----
-
-## Two Things to Do After Pasting This
-
-**1. Rename the repo** — Go to repo → Settings → Repository name → change to `aurawell-ai-integration` (fixes the triple-L typo that looks unprofessional)
-
-**2. Commit message to use:**
-```
-docs: rewrite README to document system integration architecture
