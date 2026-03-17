@@ -28,7 +28,7 @@ Personalized Health Response → User
 
 | Layer | Technology | Role |
 |---|---|---|
-| Frontend | Laravel Breeze · Blade | Chat UI, user input handling |
+| Frontend | Laravel | Chat UI, user input handling |
 | Backend | Laravel (PHP) | API routing, business logic |
 | AI Service | LLM Chatbot API | Natural language health advice |
 | Database | Vultr Managed MySQL | Cloud-hosted persistent storage |
@@ -108,14 +108,3 @@ This project demonstrates core **System Integrator** competencies:
 - **Multi-layer system design** — frontend, backend, AI service, and database working as one
 - **Production deployment** — not just local dev, deployed to real cloud infrastructure
 
----
-
-## Repository
-
-> **Note:** Repository name updated from `Aurawelll-AI` to `aurawell-ai-integration` 
-> for clarity and professional consistency.
-
----
-
-*Built as part of a system integration portfolio targeting AI + Cloud + Data domains.*
-```
